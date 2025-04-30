@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Assignment 2 Stocks Page</title>
+        <link rel="stylesheet" href="Grant_Assignment2.css">
+        <script src="Grant_Assignment2.js"></script>
+        <script src="https://unpkg.com/simple-slider"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+        
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header id="header">
+            <h1>Dogs Page</h1>
+         </header>
+        
+       <!-- Nav section -->
+       <nav id="main-nav">
+        <ul>
+            <li><a href="Assignment2.html">Home</a></li>
+            <li><a href="Grant_Assignment2_stocks.html">Stocks</a></li>
+            <li><a href="Grant_Assignment2_dogs.html">Dogs</a></li>
+        </ul>
+        </nav>
+
+        <!-- Carousel section -->
+        <div id="carousel" class="carousel-wrapper"></div>
+
+
+    <!-- Breed buttons -->
+            <div id="breed-buttons" style="margin-top: 30px;"></div>
+
+    <!-- Breed -->
+            <div id="breed-info" class="breed-info"></div>
+                <h2 id="breed-name"></h2>
+                <p id="breed-description"></p>
+                <p id="breed-life-span"></p>
+            </div>
+
+        <!-- Audio stuff-->
+        <div class="audio-controls">
+            <h3>Audio tools are implemented in this page!</h3>
+                <p>Say "Hello" to see an alert.<br>
+                Say "Change the color to {color}" to change background color.<br>
+                Say "Navigate to home/stocks/dogs" to move between pages.<br>
+                Say "Load Dog Breed {breed}" to view breed info.<br>
+                </p>
+
+        <div class="audio-button-container">
+          <button onclick="startListening()" class="button">Turn On Audio</button>
+          <button onclick="stopListening()" class="button">Turn Off Audio</button>
+        </div>
+        </div>
+
+    </body>
+</html>
+
+
+    
