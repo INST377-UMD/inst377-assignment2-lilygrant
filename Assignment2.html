@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Lily Grant Assignment 2</title>
+        <link rel="stylesheet" href="Grant_Assignment2.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+        <script defer src="Grant_Assignment2.js"></script>
+      </head>
+      <body>
+        <!-- Header -->
+        <header id="header">
+          <h1>Lily Grant Assignment 2</h1>
+       </header>
+       
+       <!-- Navigation section -->
+       <nav id="main-nav">
+        <ul>
+            <li><a href="Assignment2.html">Home</a></li>
+            <li><a href="Grant_Assignment2_stocks.html">Stocks</a></li>
+            <li><a href="Grant_Assignment2_dogs.html">Dogs</a></li>
+        </ul>
+    </nav>
+      
+<!-- Quotes -->
+      <section id="quote-section" style="text-align:center; margin: 20px;">
+        <h2 id="quote">Loading quote...</h2>
+      </section>
+
+<!-- Custom Buttons -->
+      <div class="button-container">
+        <button class="button-53" onclick="location.href='Grant_Assignment2_stocks.html'">Stocks</button>
+        <button class="button-53" onclick="location.href='Grant_Assignment2_dogs.html'">Dogs</button>
+      </div>
+
+<!-- Audio stuff-->
+      <div class="audio-controls">
+        <h3>Audio tools are implemented in this page!</h3>
+            <p>Say "Hello" to see an alert.<br>
+              Say "Change the color to {color}" to change background color.<br>
+              Say "Navigate to home/stocks/dogs" to move between pages.<br>
+            </p>
+  
+            <div class="audio-button-container">
+              <button onclick="startListening()" class="button">Turn On Audio</button>
+              <button onclick="stopListening()" class="button">Turn Off Audio</button>
+            </div>
+      </div>
+
+</body>
+</html>
